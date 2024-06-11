@@ -1,0 +1,378 @@
+.navbar-brand {
+  font-family: "Monaco", monospace;
+}
+
+#home {
+  padding-top: 2rem;
+  background-color: 2rem;
+}
+
+body {
+  min-height: 3000px;
+}
+
+.container1 {
+  text-align: center;
+  position: relative;
+  top: 0;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  background: rgba(192, 192, 192, 0.3);
+}
+
+.download-button {
+  background-color: #6b5b95; /* Warna latar belakang tombol */
+  color: #fff; /* Warna teks */
+  padding: 10px 20px; /* Padding untuk memberikan ruang di sekitar teks */
+  border: none; /* Menghapus border */
+  border-radius: 5px; /* Agar tombol memiliki sudut yang sedikit membulat */
+  cursor: pointer; /* Mengubah ikon kursor menjadi tangan saat diarahkan ke tombol */
+  transition: background-color 0.3s; /* Efek transisi saat mouse hover */
+}
+
+.download-button a {
+  text-decoration: none; /* Menghilangkan garis bawah tautan */
+  color: inherit; /* Mewarisi warna teks dari tombol */
+}
+
+.download-button:hover {
+  background-color: #27ae60; /* Warna latar belakang saat tombol dihover */
+}
+
+/* Tambahkan warna latar belakang, warna teks, dan gaya lain sesuai keinginan Anda */
+.btn-primary {
+  background-color: #3498db; /* Warna latar belakang tombol */
+  color: #fff; /* Warna teks tombol */
+  padding: 10px 20px; /* Padding untuk memberikan ruang di sekitar teks */
+  border: none; /* Menghapus border */
+  border-radius: 5px; /* Membuat tombol memiliki sudut yang sedikit membulat */
+  cursor: pointer; /* Mengubah ikon kursor menjadi tangan saat diarahkan ke tombol */
+  text-decoration: none; /* Menghapus garis bawah pada tautan */
+  display: inline-block; /* Membuat tombol menjadi inline block */
+  transition: background-color 0.3s; /* Efek transisi saat hover */
+}
+
+/* Efek hover saat kursor diarahkan ke tombol */
+.btn-primary:hover {
+  background-color: #2980b9; /* Warna latar belakang saat tombol dihover */
+}
+
+/* button pada contact */
+.text-end button {
+  background-color: #3498db; /* Warna latar belakang tombol */
+  color: #fff; /* Warna teks tombol */
+  padding: 10px 20px; /* Padding untuk memberikan ruang di sekitar teks */
+  border: none; /* Menghapus border */
+  border-radius: 5px; /* Agar tombol memiliki sudut yang sedikit membulat */
+  cursor: pointer; /* Mengubah ikon kursor menjadi tangan saat diarahkan ke tombol */
+  text-decoration: none; /* Menghapus garis bawah pada tautan */
+  transition: background-color 0.3s; /* Efek transisi saat hover */
+}
+
+.text-end button:hover {
+  background-color: #2980b9; /* Warna latar belakang saat tombol dihover */
+}
+
+h2 {
+  font-family: serif, georgia;
+}
+
+.black-text {
+  color: black;
+}
+
+section {
+  padding-top: 2rem;
+}
+
+.nav-item {
+  font-family: Verdana, sans-serif;
+}
+
+/*About */
+/* Gaya untuk judul "Education" */
+.resume-title {
+  font-size: 24px; /* Ukuran font */
+  margin: 20px 0; /* Jarak atas dan bawah */
+}
+
+/* Gaya untuk item "Education" */
+.resume-item {
+  margin-bottom: 20px; /* Jarak antara item */
+}
+
+/* Gaya untuk judul institusi pendidikan */
+.resume-item h4 {
+  font-size: 18px; /* Ukuran font */
+  margin: 0; /* Menghilangkan margin atas dan bawah */
+}
+
+/* Gaya untuk tahun periode pendidikan */
+.resume-item h5 {
+  font-size: 16px; /* Ukuran font */
+  margin: 5px 0; /* Jarak atas dan bawah */
+}
+
+/* Gaya untuk deskripsi pendidikan */
+.resume-item p {
+  font-style: italic; /* Teks miring */
+  margin: 0; /* Menghilangkan margin atas dan bawah */
+}
+
+/*Skill*/
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  margin: 20px;
+}
+
+.skills-column {
+  text-align: left;
+}
+
+.skill-list li {
+  margin-bottom: 10px;
+}
+
+i.fas {
+  color: #2ecc71;
+  margin-right: 10px;
+}
+
+/* Portofolio */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.project {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.project p {
+  margin-top: 10px;
+}
+
+/* Contact */
+.contact-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(243, 255, 251);
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/*--------------
+------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #e9e4ed;
+  color: #45505b;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #0563bb;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background: #0678e3;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+
+#footer .credits {
+  font-size: 13px;
+}
+
+/*contact */
+contact-form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container,
+.message-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.input-container i,
+.message-container i {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: #007bff;
+}
+
+input,
+textarea {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* <div class="row mt-1">
+<div class="col-lg-4">
+  <div class="info">
+    <div class="address">
+      <i class="fa-solid fa-location-dot"></i>
+      <h5>Alamat:</h5>
+      <p>Jalan Stadion No 26, Pematang Siantar</p>
+    </div>
+
+    <div class="email">
+      <i class="fa-solid fa-envelope"></i>
+      <h5>Email:</h5>
+      <p>abutarbutar16@gmail.com</p>
+    </div>
+
+    <div class="phone">
+      <i class="fa-solid fa-phone"></i>
+      <h5>Phone:</h5>
+      <p>+6281366254012</p>
+    </div>
+  </div>
+</div> */
+
+/* sosial media */
+.social-icons {
+  display: flex;
+  gap: 20px; /* Jarak antara ikon sosial media */
+}
+
+.social-icons a {
+  text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+  color: #333; /* Warna ikon sosial media */
+  font-size: 24px; /* Ukuran font ikon sosial media */
+  transition: color 0.3s; /* Efek transisi saat hover */
+
+  /* Mengatur lebar dan tinggi ikon sosial media */
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Membuat ikon sosial media menjadi lingkaran */
+}
+
+.social-icons a:hover {
+  color: #2ecc71; /* Warna ikon berubah saat dihover */
+}
